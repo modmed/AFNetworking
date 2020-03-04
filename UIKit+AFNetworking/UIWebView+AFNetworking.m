@@ -24,6 +24,7 @@
 #import <objc/runtime.h>
 
 #if TARGET_OS_IOS
+#if UIWEBVIEW_ENABLED
 
 #import "AFHTTPSessionManager.h"
 #import "AFURLResponseSerialization.h"
@@ -154,4 +155,5 @@
 
 @end
 
+#endif
 #endif
