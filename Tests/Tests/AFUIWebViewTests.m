@@ -21,6 +21,7 @@
 
 #import <XCTest/XCTest.h>
 #import "AFTestCase.h"
+#if UIWEBVIEW_ENABLED
 #import "UIWebView+AFNetworking.h"
 
 @interface AFUIWebViewTests : AFTestCase
@@ -102,3 +103,4 @@
 }
 
 @end
+#endif
